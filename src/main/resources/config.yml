@@ -1,0 +1,32 @@
+BlackList:
+  Reverse: false
+  List:
+    - villager
+
+DisableSpawnReason:
+  - command
+  - plugin
+  - slime_split
+  - sheared
+
+Scale:
+  Enabled: true
+  Max: 1.5
+  Min: 0.5
+
+SyncModule: # <totalValue> = <current_value> * (<scale_value> * <multiplier>)
+  Health:
+    Enabled: false
+    Multiplier: 1.0
+  Damage:
+    Enabled: false
+    Multiplier: 1.0
+  Armor:
+    Enabled: false
+    Multiplier: 1.0
+  ArmorToughness:
+    Enabled: false
+    Multiplier: 1.0
+  MovementSpeed:
+    Enabled: false
+    Multiplier: 1.0

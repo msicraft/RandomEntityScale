@@ -1,0 +1,9 @@
+name: RandomEntityScale
+version: 1.0 #'${project.version}'
+main: me.msicraft.randomentityscale.RandomEntityScale
+api-version: '1.20'
+commands:
+  randomentityscale:
+    description: Main command for RandomEntityScale
+    permission: randomentityscale.command
+    aliases: [res, randomscale, entityscale]
